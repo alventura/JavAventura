@@ -10,6 +10,7 @@ public class ExamplesMethods {
 	example.example3();
 	example.example4("Alvaro");
 	
+	
 	}
    
 
