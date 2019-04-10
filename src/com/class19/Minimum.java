@@ -7,7 +7,7 @@ public class Minimum {
 
 	}
 static int minOfValues(int[] x) {
-	int min=0;
+	int min=10;
 	
 	for(int y: x) {
 		if(y<min) {

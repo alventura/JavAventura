@@ -28,7 +28,7 @@ public class ApplicationForAnimal {
 		System.out.println(bulldog.canBark(bulldog.breed));
 		System.out.println(bulldog.isWild(bulldog.breed));
 		
-		int[] a= {0,1,2,3,4,5,30};
+		int[] a= {99,1,2,3,4,5,30};
 		
 		System.out.println(Minimum.minOfValues(a));
 		
