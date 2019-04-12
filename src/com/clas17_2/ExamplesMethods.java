@@ -21,7 +21,7 @@ void example() {
 
 void example2(String name) {
 
-    System.out.println("No return value but with Parameter : "  + name);
+    System.out.println("No return value but with Parameter : "+ name);
 }
 
 boolean example3() {

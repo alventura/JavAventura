@@ -2,8 +2,13 @@ package com.class20;
 
 public class AccessModifiers2 {
 
-	public static void main(String[] args) {
-		
+	private String name="John";
+    String name1="Bilal";
+    protected String name2="Asha";
+    public String name3="Tetiana";
+    
+    public static void main(String[] args) {
+        
         AccessModifiers2 obj=new AccessModifiers2();
         String reversed=obj.reverseString("Hello");
         System.out.println(reversed);
@@ -19,6 +24,8 @@ public class AccessModifiers2 {
         for (String word:array) {
             System.out.println(word);
         }
+        
+        obj.sayHello();
         
     }
     /*Create a method that will take 1 parameter as a String 
@@ -51,6 +58,9 @@ public class AccessModifiers2 {
     private String[] getWordsFromString(String str) {
         String[] words=str.split(" ");
         return words;
-	}
-
+    }
+    
+    void sayHello() {
+        System.out.println("Hello students");
+    }
 }
