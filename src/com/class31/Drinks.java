@@ -22,6 +22,7 @@ public class Drinks {
 			}
 		}
 		System.out.println(drinks);
+		System.out.println(drinks.contains("Water"));
 	}
 		
 
